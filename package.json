@@ -2,7 +2,9 @@
   "name": "tech-task",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "postinstall": "npx playwright install chromium"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

@@ -7,6 +7,7 @@ export default defineConfig({
     trace: "on-first-retry",
     baseURL: "https://university.engenious.io/",
   },
+  
 
   /* Configure projects for major browsers */
   projects: [
@@ -14,4 +15,5 @@ export default defineConfig({
       name: "chromium",
     },
   ],
+  
 });
